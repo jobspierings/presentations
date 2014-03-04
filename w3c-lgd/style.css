@@ -12,12 +12,24 @@ body {
   font-family: "OpenSans", 'Helvetica';
   letter-spacing:-5px;
   background: black;
-  background-size:100%;
   color: white;
   margin:0;
   padding:0;
   font-weight: bold;
   overflow: hidden;
+}
+
+#background-image {  
+  position: absolute;
+  width: 100%;
+  height: 100%;
+    
+  background-size: auto 93%;
+  
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  z-index: 9;
 }
 
 code, pre {
@@ -34,8 +46,6 @@ em, a {
 }
 
 a {
-  background: #34d0e7;
-  color:#000;
   text-decoration:none;
 }
 
@@ -49,9 +59,14 @@ div {
   position:absolute;
   top:0px;
   left:0px;
-  padding:75px;
+  padding: 80px;
   letter-spacing:10px;
-  line-height:97%;
+  line-height:120%;
+  text-align:center;
+  
+/*  padding:75px;
+  letter-spacing:10px;
+  line-height:97%;*/
 }
 
 div.center {
@@ -70,7 +85,7 @@ svg {
 
 #graticules line {
   /*stroke: rgba(255, 255, 255, 0.4);*/
-  stroke: rgba(100, 100, 100, 1);
+  stroke: rgba(100, 100, 100, 0.7);
   stroke-width: 1px;
 }
 
@@ -78,3 +93,27 @@ svg {
   stroke-width: 2px;
 }
 
+div.last {
+  top: -5%;
+}
+
+#logos {
+  font-size: 10px;
+  margin: 0 auto;
+  border-radius: 10px ;
+  overflow: hidden; 
+  display: block;
+  top: 50%;
+  line-height: 0;
+  background-color: white;
+  width: 90%;
+  padding: 20px;
+  /*filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'invert\'><feColorMatrix in='SourceGraphic' type='matrix' values='-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0'/></filter></svg>#invert");
+  
+  filter: invert(100%)
+  */
+}
+
+#logos img {
+  width: 40%;
+}
