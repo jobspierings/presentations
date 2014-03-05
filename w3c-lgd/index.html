@@ -14,7 +14,7 @@
   <div>CitySDK Linked Data API</div>
   <div><img src="formats.png" />Existing data sets, legacy databases, city services</div>
   <div>One unified REST API</div>
-  <div>Geo-spatial city data</div>
+  <div>Geospatial city data</div>
   <div><img src='parkinggarage1.png' />Concept (1)</div>
   <div><img src='parkinggarage2.png' />Concept (2)</div>
   <div><img src='parkinggarage3.png' />Concept (3)</div>
@@ -24,44 +24,54 @@
   <div class="idea">Ideas for future version</div>
 
   <!-- - - - - - - - - Idea 1 - - - - - - - - -->
+  <div class="idea">1. Linking data sets</div>
+  <div>
+    <img src='link-rules.png' />
+    <span class="corner idea">1: Linking data sets</span>    
+  </div>
+  <div>
+    Rule-based, between pairs of data sets
+    <span class="corner idea">1: Linking data sets</span>
+  </div>
+  <div>
+    Support changing data sets
+    <span class="corner idea">1: Linking data sets</span>
+  </div>
+
+  <!-- - - - - - - - - Idea 2 - - - - - - - - -->
+  <div class="idea">2. Categorize objects</div>
   <div>
     DBpedia, OpenStreetMap, Schema.org, …
-    <span class="corner idea">1: Categorize objects</span>
+    <span class="corner idea">2: Categorize objects</span>
   </div>
   <div>
     <code>amenity=school</code><br />
     <code>dbpedia:School</code><br />
     <code>schema:School</code>
-    <span class="corner idea">1: Categorize objects</span>
+    <span class="corner idea">2: Categorize objects</span>
   </div>
   <div>
     <code>tourism=museum</code><br />
     <code>dbpedia:Museum</code><br />
     <code>schema:Museum</code>
-    <span class="corner idea">1: Categorize objects</span>
+    <span class="corner idea">2: Categorize objects</span>
   </div>
 
-  <!-- - - - - - - - - Idea 2 - - - - - - - - -->
+  <!-- - - - - - - - - Idea 3 - - - - - - - - -->
+  <div class="idea">3. Fuzzy URIs</div>
   <div>
-    Back-end agents dynamically find links
-    <span class="corner idea">2: Linking data sets</span>
+    URIs point to <i>concepts</i>, at certain location
+    <span class="corner idea">3: Fuzzy URIs</span>
+  </div>
+  <div>
+    <code>http://ld.citysdk.eu/<br />amenity/school/u179mt</code>
+    <span class="corner idea">3: Fuzzy URIs</span>
+  </div>
+  <div>
+    <code>http://ld.citysdk.eu/<br />Museum/u173z5v</code>
+    <span class="corner idea">3: Fuzzy URIs</span>
   </div>
   
-  <div>
-    <img src='link-rules.png' />
-    <span class="corner idea">2: Linking data sets</span>    
-  </div>
-  
-  <div>
-    Rule-based, pairs of data sets, <br />
-    SILK
-  </div>
-  
-  <div>
-    support changing data sets
-    <span class="corner idea">2: Linking data sets</span>
-  </div>
-
   <!-- - - - - - - - - Idea x - - - - - - - - -->
   <!-- <div>
     Is <code>owl:sameAS</code> enough?
@@ -72,19 +82,6 @@
     <code>citysdk-ld:publicTransportTransfer</code>
     <span class="corner idea">x: What links?</span>
   </div> -->
-
-  <!-- - - - - - - - - Idea 3 - - - - - - - - -->
-  <!-- concepts... parking garage here -->
-  <!-- waarom geohash? lat/lon kan ook toch? 
-    nee, want nu altijd twee-dimensionale onnauwkeurigheid -->
-  <div>
-    <code>http://ld.citysdk.eu/<br />amenity/school/u179mt</code>
-    <span class="corner idea">3: Fuzzy URIs</span>
-  </div>
-  <div>
-    <code>http://ld.citysdk.eu/<br />Garages_(parking)/u173zt1</code>
-    <span class="corner idea">3: Fuzzy URIs</span>
-  </div>
 
   <div class="last">
     Thanks!
