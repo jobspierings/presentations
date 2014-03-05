@@ -28,13 +28,9 @@
   <div><img src="artsholland_map.gif" />Real-time events &amp; OSM</div>
   <div><img src="cbs_map.gif" />Statistical data &amp; administrative regions</div>  
   <div>JSON, RDF/Turtle, GeoJSON, JSON-LD</div>
-    <!--
-    
-    - Categorize objects? DBpedia, OpenStreetMap, ...
-    - Fuzzy IRIs - category/geohash > parking garage here, busstop here  
-     -->
   <div class="idea">Ideas for future version</div>
   
+  <!-- - - - - - - - - Idea 1 - - - - - - - - -->
   <div>
     DBpedia, OpenStreetMap, Schema.org, …
     <span class="corner idea">1: Categorize objects</span>
@@ -42,29 +38,49 @@
   <div>
     <code>
       amenity=school<br />
-      tourism=museum
+      dbpedia:School<br />
+      schema:School
     </code>
     <span class="corner idea">1: Categorize objects</span>
   </div>
   <div>
     <code>
+      tourism=museum<br />
       dbpedia:Museum<br />
       schema:Museum
     </code>
     <span class="corner idea">1: Categorize objects</span>
   </div>
 
-  
-    <!-- - Find links automatically between pairs of dataset - SILK, ...   -->
-  
-      
+  <!-- - - - - - - - - Idea 2 - - - - - - - - -->  
+  <div>
+    <code>Rules, pairs of sets</code>
+    <span class="corner idea">2: Find links between data sets</span>
+  </div>
+  <div>SILK</div>
+
+  <!-- - - - - - - - - Idea 3 - - - - - - - - -->    
+  <div>
+    Is <code>owl:sameAS</code> enough?
+    <span class="corner idea">3: What links?</span>
+  </div>
+  <div>
+    <code>
+      citysdk-ld:insideBuilding
+      citysdk-ld:publicTransportTransfer
+    </code>
+    <span class="corner idea">3: What links?</span>
+  </div>
+
+  <!-- - - - - - - - - Idea 4 - - - - - - - - -->
+  <!-- concepts... parking garage here -->    
   <div>
     <code>http://ld.citysdk.eu/<br />amenity/school/u179mt</code>
-    <span class="corner idea">3: Fuzzy IRIs</span>
+    <span class="corner idea">4: Fuzzy IRIs</span>
   </div>
   <div>
     <code>http://ld.citysdk.eu/<br />Garages_(parking)/u173zt1</code>
-    <span class="corner idea">3: Fuzzy IRIs</span>  
+    <span class="corner idea">4: Fuzzy IRIs</span>  
   </div>  
     
   <div class="last">
