@@ -6,30 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
   <link rel="stylesheet" href="style.css" id="theme">
   <script src="d3.v3.min.js" charset="utf-8"></script>
-	<script src="big.js"></script>  
+	<script src="big.js"></script>
 </head>
 <body>
   <svg><g id="graticules"></g></svg>
   <span id="background-image"></span>
   <div>CitySDK Linked Data API</div>
-  <div><img src="formats-wb.png" />Existing data sets, legacy databases, city services</div>
+  <div><img src="formats.png" />Existing data sets, legacy databases, city services</div>
   <div>One unified REST API</div>
   <div>Geo-spatial city data</div>
-  <div><img src='stadje-01.png' />Concept (1)</div>
-  <div><img src='stadje-02.png' />Concept (2)</div>
-  <div><img src='stadje-04.png' />Concept (3)</div>
-  <div><img src='stadje-05.png' />Concept (4)</div>
-  <!--
-    - Nieuwe zwarte plaatjes maken
-    - Concept: example, parking garage/train station, kies eentje, plaatje van zo'n ding
-    - Silo's
-    - Satéprikkers door de silo's, in het object
-  -->
+  <div><img src='parkinggarage1.png' />Concept (1)</div>
+  <div><img src='parkinggarage2.png' />Concept (2)</div>
+  <div><img src='parkinggarage3.png' />Concept (3)</div>
   <div><img src="artsholland_map.gif" />Real-time events &amp; OSM</div>
-  <div><img src="cbs_map.gif" />Statistical data &amp; administrative regions</div>  
+  <div><img src="cbs_map.gif" />Statistical data &amp; administrative regions</div>
   <div>JSON, RDF/Turtle, GeoJSON, JSON-LD</div>
   <div class="idea">Ideas for future version</div>
-  
+
   <!-- - - - - - - - - Idea 1 - - - - - - - - -->
   <div>
     DBpedia, OpenStreetMap, Schema.org, …
@@ -52,14 +45,20 @@
     <span class="corner idea">1: Categorize objects</span>
   </div>
 
-  <!-- - - - - - - - - Idea 2 - - - - - - - - -->  
+  <!-- - - - - - - - - Idea 2 - - - - - - - - -->
   <div>
-    <code>Rules, pairs of sets</code>
+    Rules, pairs of sets
     <span class="corner idea">2: Find links between data sets</span>
   </div>
-  <div>SILK</div>
+  
+  <div>SILK, LIMES</div>
+  
+  <div>
+    Back-end agents dynamically find links in chaning data sets
+    <span class="corner idea">2: Find links between data sets</span>
+  </div>
 
-  <!-- - - - - - - - - Idea 3 - - - - - - - - -->    
+  <!-- - - - - - - - - Idea 3 - - - - - - - - -->
   <div>
     Is <code>owl:sameAS</code> enough?
     <span class="corner idea">3: What links?</span>
@@ -73,23 +72,24 @@
   </div>
 
   <!-- - - - - - - - - Idea 4 - - - - - - - - -->
-  <!-- concepts... parking garage here -->    
+  <!-- concepts... parking garage here -->
+  <!-- waarom geohash? lat/lon kan ook toch? -->
   <div>
     <code>http://ld.citysdk.eu/<br />amenity/school/u179mt</code>
-    <span class="corner idea">4: Fuzzy IRIs</span>
+    <span class="corner idea">4: Fuzzy URIs</span>
   </div>
   <div>
     <code>http://ld.citysdk.eu/<br />Garages_(parking)/u173zt1</code>
-    <span class="corner idea">4: Fuzzy IRIs</span>  
-  </div>  
-    
+    <span class="corner idea">4: Fuzzy URIs</span>
+  </div>
+
   <div class="last">
     Thanks!
     <span id="logos">
       <a href="http://waag.org/en"><img src="waag.png" /></a>
       <a href="http://citysdk.waag.org/"><img src="citysdk.png" /></a>
     </span>
-    <span class="corner idea attribution"><a href="http://citysdk.waag.org/">citysdk.waag.org</a>, <a href="mailto:bert@waag.org">bert@waag.org</a></span>  
+    <span class="corner idea attribution"><a href="http://citysdk.waag.org/">citysdk.waag.org</a>, <a href="mailto:bert@waag.org">bert@waag.org</a></span>
   </div>
 </body>
 </html>
