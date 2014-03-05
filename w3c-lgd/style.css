@@ -34,7 +34,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  z-index: 9;
 }
 
 code, pre {
