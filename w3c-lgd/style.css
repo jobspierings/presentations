@@ -103,10 +103,11 @@ div.last {
   border-radius: 10px ;
   overflow: hidden; 
   display: block;
-  top: 50%;
+
   line-height: 0;
   background-color: white;
   width: 90%;
+  margin-top: 20px;
   padding: 20px;
   /*filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'invert\'><feColorMatrix in='SourceGraphic' type='matrix' values='-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0'/></filter></svg>#invert");
   
