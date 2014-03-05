@@ -24,7 +24,7 @@ body {
   width: 100%;
   height: 100%;
     
-  background-size: auto 93%;
+  background-size: auto 96%;
   
   background-repeat: no-repeat;
   background-position: center center;
@@ -34,6 +34,19 @@ body {
 
 code, pre {
   font-family: "Inconsolata", monospace;
+  line-height:180%;
+}
+
+.idea {
+  color: #FFBB00;
+}
+
+.corner {
+  position: fixed;
+  top: 50px;
+  left: 40px;
+  font-size: 50px;
+  line-height: 0;
 }
 
 h1, h2, h3, p {
@@ -63,10 +76,6 @@ div {
   letter-spacing:10px;
   line-height:120%;
   text-align:center;
-  
-/*  padding:75px;
-  letter-spacing:10px;
-  line-height:97%;*/
 }
 
 div.center {
@@ -97,10 +106,16 @@ div.last {
   top: -5%;
 }
 
+.attribution {
+  font-size: 30px;
+  top: auto;
+  bottom: 50px;
+}
+
 #logos {
   font-size: 10px;
   margin: 0 auto;
-  border-radius: 10px ;
+  border-radius: 10px;
   overflow: hidden; 
   display: block;
 

@@ -10,27 +10,62 @@
 </head>
 <body>
   <svg><g id="graticules"></g></svg>
-  <img id="background-image" />
+  <span id="background-image"></span>
   <div>CitySDK Linked Data API</div>
   <div><img src="formats-wb.png" />Existing data sets, legacy databases, city services</div>
   <div>One unified REST API</div>
-  <div>Geo-spatial city data</div>  
+  <div>Geo-spatial city data</div>
+  <div><img src='stadje-01.png' />Concept (1)</div>
+  <div><img src='stadje-02.png' />Concept (2)</div>
+  <div><img src='stadje-04.png' />Concept (3)</div>
+  <div><img src='stadje-05.png' />Concept (4)</div>
   <!--
+    - Nieuwe zwarte plaatjes maken
     - Concept: example, parking garage/train station, kies eentje, plaatje van zo'n ding
     - Silo's
     - Satéprikkers door de silo's, in het object
- IRI: http://ld.citysdk,eu/ams.prk.213
--->
-  <div>JSON, RDF/Turtle, GeoJSON, JSON-LD</div>
+  -->
   <div><img src="artsholland_map.gif" />Real-time events &amp; OSM</div>
   <div><img src="cbs_map.gif" />Statistical data &amp; administrative regions</div>  
+  <div>JSON, RDF/Turtle, GeoJSON, JSON-LD</div>
     <!--
-    - Current research/future version
-    - Find links automatically between pairs of dataset - SILK, ...
+    
     - Categorize objects? DBpedia, OpenStreetMap, ...
     - Fuzzy IRIs - category/geohash > parking garage here, busstop here  
      -->
-  <div></div>
+  <div class="idea">Ideas for future version</div>
+  
+  <div>
+    DBpedia, OpenStreetMap, Schema.org, …
+    <span class="corner idea">1: Categorize objects</span>
+  </div>
+  <div>
+    <code>
+      amenity=school<br />
+      tourism=museum
+    </code>
+    <span class="corner idea">1: Categorize objects</span>
+  </div>
+  <div>
+    <code>
+      dbpedia:Museum<br />
+      schema:Museum
+    </code>
+    <span class="corner idea">1: Categorize objects</span>
+  </div>
+
+  
+    <!-- - Find links automatically between pairs of dataset - SILK, ...   -->
+  
+      
+  <div>
+    <code>http://ld.citysdk.eu/<br />amenity/school/u179mt</code>
+    <span class="corner idea">3: Fuzzy IRIs</span>
+  </div>
+  <div>
+    <code>http://ld.citysdk.eu/<br />Garages_(parking)/u173zt1</code>
+    <span class="corner idea">3: Fuzzy IRIs</span>  
+  </div>  
     
   <div class="last">
     Thanks!
@@ -38,6 +73,7 @@
       <a href="http://waag.org/en"><img src="waag.png" /></a>
       <a href="http://citysdk.waag.org/"><img src="citysdk.png" /></a>
     </span>
+    <span class="corner idea attribution"><a href="http://citysdk.waag.org/">citysdk.waag.org</a>, <a href="mailto:bert@waag.org">bert@waag.org</a></span>  
   </div>
 </body>
 </html>
