@@ -10,12 +10,12 @@
 </head>
 <body>
   <svg><g id="graticules"></g></svg>
+  <span id="waagje"></span>
   <span id="background-image"></span>
 
   <!-- Introduction -->
   
-  <div>CitySDK: <br /> tons of data, <br /> dozens of cities, <br /> one API</div>
-  <div><img src='citysdk-white.png' />CitySDK</div>
+  <div>CitySDK: <br /> tons of data <br /> dozens of cities <br /> <em>one API</em></div>
   <div>    
     <a href="mailto:frank@waag.org">Frank&nbsp;Kresin</a> <a href="http://twitter.com/kresin">@kresin</a> 
     <br /> <em>&#9679;</em> <br />
@@ -27,7 +27,7 @@
   <div><img src='divv.portal.png' />Data portal</div>
   <div><img src='silos.png' />Different silos <em>&#9679;</em> not linked</div>
   <div><img src='formats.png' />Different file formats</div>
-  <div>404 <em>&#9679;</em> not found</div>
+  <div>404 - not found</div>
   <div><img src='bag-sql.png' />Different data models &amp; field names</div>
   <div><img src='ndw-xml.png' />Different data models &amp; field names</div>
   <div><img src='centraal_station.jpg' />Amsterdam Central Station</div>
@@ -47,38 +47,42 @@
   </div>
   <div><img src='school-02.png' /></div>
   <div>Data available, but difficult to answers questions</div>
+  <div><em>Code does not scale</em></div>
 
-  <!-- CitySDK -->
+  <!-- CitySDK, and details about three domains/APIs -->
     
   <div>CitySDK</div>
-  <div>23 partners, <br /> 8 countries, <br /> 8 cities</div>
+  <div>23 partners <br /> 8 countries <br /> 8 cities</div>
   <div>Generic APIs using existing backends and data</div>
+  <div>Developer engagement, hackathons, replication pilots</div>
   <div>Three domains</div>
-  <div>1.&nbsp;Participation</div>
-  <div><i>How can I tell my city the street lights are broken?</i></div>
-  <div>2.&nbsp;Tourism</div>
-  <div><i>What can I do tonight? And where?</i></div>
-  <div>3.&nbsp;Mobility</div>
-  <div><i>Does my train leave on time? And where can I park my bike?</i></div>  
-  
-  <!-- Details about three domains/APIs -->
   
   <!-- 1. Participation -->
+  <!-- Screenshots Participation API -->
   
-  <!-- 2. Tourism -->  
+  <div>1.&nbsp;Participation</div>
+  <div><i>How can I tell my city the street lights are broken?</i></div>
   
+  <!-- 2. Tourism -->
+  <!-- Screenshots Tourism API -->
+  
+  <div>2.&nbsp;Tourism</div>
+  <div><i>What can I do tonight? And where?</i></div>
+
   <!-- 3. Linked Data API -->  
 
-  <div>Collects, describes, links, enriches &amp; distributes</div>
-  <div>Data from different silos <br />One unified REST API</div>
+  <div>3.&nbsp;Mobility</div>
+  <div><i>Does my train leave on time? And where can I park my bike?</i></div>
+
+  <!-- Screenshots Mobility API -->
+  
+  <div>CitySDK Linked Data API</div>
 
   <div><img src='parkinggarage1.png' />Concept (1)</div>
   <div><img src='silos.png' />Concept (2)</div>
   <div><img src='parkinggarage3.png' />Concept (3)</div>
   
   <div><img src='ptstops_nederland.png' />Public transport stops in the Netherlands</div>
-  <div><img src='cbs_api.gif' />CBS - API</div>
-  <div><img src='cbs_map.gif' />CBS - Map</div>
   <div><img src='artsholland_api.gif' />Arts Holland - API</div>
   <div><img src='artsholland_map.gif' />Arts Holland - Map</div>
   <div><img src='sck.jpg' />SmartCitizenKit</div>
@@ -90,46 +94,23 @@
   <div><img src='bag_proosdij.png' />Proosdij Deventer</div>
   
   <div><img src='dashboard.png' />City Dashboard</div>
-  <!-- - open data kaart
-  - open data globe
-  - park shark / extra API’s op de api door Glimworm (very cool)
-  - bomenspotter -->
+  
+  <div>ParkShark</div>
+  <!-- - park shark / extra API’s op de api door Glimworm (very cool) -->
+
+  <div>Current research: Link discovery</div>
   
   <!-- What's next? -->
   
   <div>What's next?</div>
-  
-  <!-- - en het mooie: jij kunt meedoen
-  - als stad: implementeer de API
-  - als developer: maak apps die schalen
-  - als burger: gebruik die apps
-  - meer info via citysdk.eu -->
-  
+  <div>Plaatje Europa met steden</div>
+  <div><span class="smaller">Cities, developers, citizens:</span> <br />
+    <em>Join us</em>
+  </div>
+  <div>Factsheet</div>
   
   <!-- Frank:
     
-  - steden zitten op bijzonder veel data & databronnen; rijke sets
-  - zijn echter slecht ontsloten: legacy systemen, niet gestandaardiseerd, niet gelinked, niet toegankelijk
-  - waardoor eenvoudige vragen moeilijk kunnen worden beantwoord
-  - waardoor applicaties niet kunnen worden ontwikkeld
-  - applicaties, als al ontwikkeld, niet kunnen schalen
-  - eventueel: voorbeeld van de school
-  - eenvoudige vragen
-  - tien datasets
-  - geen of weinig antwoorden
-  - iedereen leidt daaronder: de overheid, developers, burgers
-  - wat als je één manier had om al die data te benaderen? Zodat je je niet om de back-end hoeft te bekommeren?
-  - in comes CitySDK
-  - project van 23 partners, 9 landen, 8 steden
-  - generieke api’s over bestaande back-ends
-  - developers engageren
-  - oplossingen voor problemen
-  - drie domeinen:
-  - participatie (311)
-  - toerisme (waar ga ik vanavond heen, en hoe)
-  - mobiliteit - alles waar een plek aan hangt
-  - Mobiliteit is een complex domein - veel diverse soorten data
-  - Generieke oplossing: Linked Data
   - (de lagen)
   - de architectuur
   - api goed beschreven
@@ -139,8 +120,6 @@
   - open data kaart
   - open data globe
   - park shark / extra API’s op de api door Glimworm (very cool)
-  - city dashboard
-  - bomenspotter
   - etc etc etc
   - en het mooie: jij kunt meedoen
   - als stad: implementeer de API
@@ -150,7 +129,6 @@
   - en bij ons
   - thanks! -->
   
-  <div time-to-next="5">Thanks!</div>
   <div>    
     <span id="logos">
       <a href="http://waag.org/en"><img src="waag.png" /></a>
