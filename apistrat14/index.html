@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CitySDK</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="style.css" id="theme">
+  <script src="d3.v3.min.js" charset="utf-8"></script>
+	<script src="big.js"></script>
+</head>
+<body>
+  <svg><g id="graticules"></g></svg>
+  <span id="background-image"></span>
+
+  <!-- Introduction -->
+  
+  <div>CitySDK: <br /> tons of data <em>&#9679;</em> <br /> dozens of cities <em>&#9679;</em> <br /> one API</div>
+  <div><img src='citysdk-white.png' />CitySDK</div>
+  <div>    
+    <a href="mailto:frank@waag.org">Frank&nbsp;Kresin</a> <em>&#9679;</em> 
+    <a href='http://www.waag.org/en'>Waag&nbsp;Society</a> <em>&#9679;</em> 
+    <a href="http://twitter.com/kresin">@kresin</a>
+  </div>
+  
+  <!-- Open data -->
+
+  <div><img src='divv.portal.png' />Data portal</div>
+  <div><img src='silos.png' />Different silos - not linked</div>
+  <div><img src='formats.png' />Different file formats</div>
+  <div>404 - not found</div>
+  <div><img src='bag-sql.png' />Different data models &amp; field names</div>
+  <div><img src='ndw-xml.png' />Different data models &amp; field names</div>
+  <div><img src='centraal_station.jpg' />Amsterdam Central Station</div>
+  <div><img src='wikipedia.jpg' />Wikipedia</div>
+  <div><img src='dbpedia.png' />DBpedia</div>
+  <div><img src='kadaster.png' />Kadaster</div>
+  <div><img src='openstreetmap.png' />OpenStreetMap</div>
+  <div><img src='rijksmonumenten.png' />Cultural Heritage Site</div>
+  <div><img src='gvb.png' />GVB</div>
+  <div><img src='foursquare.png' />Foursquare</div>
+  
+  <div><img src='school-01.png' /></div>
+  <div><img src='school-03.png' /></div>
+  <div><i>Where are schools in my neighbourhood?</i> <em>&#9679;</em>
+    <i>Which school is the best?</i> <em>&#9679;</em>
+    <i>How can I get there safest?</i>
+  </div>
+  <div><img src='school-02.png' /></div>
+  <div>Data available, but difficult to answers questions</div>
+
+  <!-- CitySDK -->
+    
+  <div>CitySDK</div>
+  <div>23 partners, <br /> 8 countries, <br /> 8 cities</div>
+  <div>Generic APIs using existing backends and data</div>
+  <div>Three domains</div>
+  <div>1.&nbsp;Participation</div>
+  <div><i>How can I tell my city the street lights are broken?</i></div>
+  <div>2.&nbsp;Tourism</div>
+  <div><i>What can I do tonight? And where?</i></div>
+  <div>3.&nbsp;Mobility</div>
+  <div><i>Does my train leave on time? And where can I park my bike?</i></div>  
+  
+  <!-- Details about three domains/APIs -->
+  
+  <!-- 1. Participation -->
+  
+  <!-- 2. Tourism -->  
+  
+  <!-- 3. Linked Data API -->  
+
+  <div>Collects, describes, links, enriches &amp; distributes</div>
+  <div>Data from different silos <br />One unified REST API</div>
+
+  <div><img src='parkinggarage1.png' />Concept (1)</div>
+  <div><img src='silos.png' />Concept (2)</div>
+  <div><img src='parkinggarage3.png' />Concept (3)</div>
+  
+  <div><img src='ptstops_nederland.png' />Public transport stops in the Netherlands</div>
+  <div><img src='cbs_api.gif' />CBS - API</div>
+  <div><img src='cbs_map.gif' />CBS - Map</div>
+  <div><img src='artsholland_api.gif' />Arts Holland - API</div>
+  <div><img src='artsholland_map.gif' />Arts Holland - Map</div>
+  <div><img src='sck.jpg' />SmartCitizenKit</div>
+  <div><img src='sck-website.png' />SmartCitizenKit - Website</div>
+  <div><img src='sck-api.png' />SmartCitizenKit - CitySDK LD API</div>
+
+  <div><img src='haarlem.png' />Haarlem</div>
+  <div><img src='westland.jpg' />Westland</div>
+  <div><img src='bag_proosdij.png' />Proosdij Deventer</div>
+  
+  <div><img src='dashboard.png' />City Dashboard</div>
+  <!-- - open data kaart
+  - open data globe
+  - park shark / extra API’s op de api door Glimworm (very cool)
+  - bomenspotter -->
+  
+  <!-- What's next? -->
+  
+  <div>What's next?</div>
+  
+  <!-- - en het mooie: jij kunt meedoen
+  - als stad: implementeer de API
+  - als developer: maak apps die schalen
+  - als burger: gebruik die apps
+  - meer info via citysdk.eu -->
+  
+  
+  <!-- Frank:
+    
+  - steden zitten op bijzonder veel data & databronnen; rijke sets
+  - zijn echter slecht ontsloten: legacy systemen, niet gestandaardiseerd, niet gelinked, niet toegankelijk
+  - waardoor eenvoudige vragen moeilijk kunnen worden beantwoord
+  - waardoor applicaties niet kunnen worden ontwikkeld
+  - applicaties, als al ontwikkeld, niet kunnen schalen
+  - eventueel: voorbeeld van de school
+  - eenvoudige vragen
+  - tien datasets
+  - geen of weinig antwoorden
+  - iedereen leidt daaronder: de overheid, developers, burgers
+  - wat als je één manier had om al die data te benaderen? Zodat je je niet om de back-end hoeft te bekommeren?
+  - in comes CitySDK
+  - project van 23 partners, 9 landen, 8 steden
+  - generieke api’s over bestaande back-ends
+  - developers engageren
+  - oplossingen voor problemen
+  - drie domeinen:
+  - participatie (311)
+  - toerisme (waar ga ik vanavond heen, en hoe)
+  - mobiliteit - alles waar een plek aan hangt
+  - Mobiliteit is een complex domein - veel diverse soorten data
+  - Generieke oplossing: Linked Data
+  - (de lagen)
+  - de architectuur
+  - api goed beschreven
+  - api viewer
+  - veel data & counting
+  - voorbeelden
+  - open data kaart
+  - open data globe
+  - park shark / extra API’s op de api door Glimworm (very cool)
+  - city dashboard
+  - bomenspotter
+  - etc etc etc
+  - en het mooie: jij kunt meedoen
+  - als stad: implementeer de API
+  - als developer: maak apps die schalen
+  - als burger: gebruik die apps
+  - meer info via citysdk.eu
+  - en bij ons
+  - thanks! -->
+  
+  
+   
+
+  <div class="last">
+    Thanks!
+    <span id="logos">
+      <a href="http://waag.org/en"><img src="waag.png" /></a>
+      <a href="http://citysdk.waag.org/"><img src="citysdk.png" /></a>
+    </span>
+    <span class="corner idea attribution">
+      <a href="http://citysdk.eu/">citysdk.eu</a>, 
+      <a href="mailto:frank@waag.org">frank@waag.org</a>, 
+      <a href="http://twitter.com/kresin">@kresin</a>
+    </span>
+  </div>
+</body>
+</html>
