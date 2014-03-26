@@ -136,3 +136,13 @@ i:after {
   display: block;
 }
 
+#waagje {
+  background-image: url('waagje.png');
+  display: block;
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+  width: 70px;
+  height: 70px;
+  z-index: 9000;
+}
