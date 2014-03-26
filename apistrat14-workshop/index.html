@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CitySDK</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="style.css" id="theme">
+  <script src="d3.v3.min.js" charset="utf-8"></script>
+	<script src="big.js"></script>
+</head>
+<body>
+  <svg><g id="graticules"></g></svg>
+  <span id="waagje"></span>
+  <span id="background-image"></span>
+
+  <!-- Introduction -->
+  
+  <div>CitySDK Linked Data API</div>
+  <div>    
+    <a href="mailto:bert@waag.org">Bert&nbsp;Spaan</a>
+    <br /> <em>&#9679;</em> <br />
+    <a href='http://www.waag.org/en'>Waag&nbsp;Society</a>    
+  </div>
+  
+  <div>Mobility data</div>
+  <div>Public transport, parking, traffic information, weather forecasts, bicycles, addresses, POIs</div>
+  
+  <div>Data from different data sources <br /> <em>One unified REST API</em></div>
+  
+  <div><img src='divv.portal.png' />Data portal</div>
+  <div><img src='silos.png' />Different silos <em>&#9679;</em> not linked</div>
+  <div><img src='formats.png' />Different file formats</div>  
+  <div><img src='bag-sql.png' />Different data models &amp; field names (1)</div>
+  <div><img src='gtfs1.png' />Different data models &amp; field names (2)</div>
+  <div><img src='ndw-xml.png' />Different data models &amp; field names (3)</div>
+  <div><img src='centraal_station.jpg' />Amsterdam Central Station</div>
+  <div><img src='wikipedia.jpg' />Wikipedia</div>
+  <div><img src='dbpedia.png' />DBpedia</div>
+  <div><img src='kadaster.png' />Kadaster</div>
+  <div><img src='openstreetmap.png' />OpenStreetMap</div>
+  <div><img src='rijksmonumenten.png' />Cultural Heritage Site</div>
+  <div><img src='gvb.png' />GVB</div>
+  <div><img src='foursquare.png' />Foursquare</div>
+    
+  <div>CitySDK Linked Data API</div>
+
+  <div><img src='parkinggarage1.png' />Concept (1)</div>
+  <div><img src='silos.png' />Concept (2)</div>
+  <div><img src='parkinggarage3.png' />Concept (3)</div>
+  <div>URI for each object</div>
+  <div><img src='ptstops_nederland.png' />Public transport stops in the Netherlands</div>
+  <div><img src='ptstops_amsterdam.png' />Public transport stops in the Netherlands</div>
+  <div><img src='now.png' />Real-time transit data</div>
+  <div><img src='artsholland_api.gif' />Arts Holland - API</div>
+  <div><img src='artsholland_map.gif' />Arts Holland - Map</div>
+  <div><img src='cbs_api.gif' />Arts Holland - API</div>
+  <div><img src='cbs_map.gif' />Arts Holland - Map</div>
+  <div><img src='turtle.png' />Turtle</div>
+  <div>JSON &amp; RDF/Turtle <br /><em>Soon: GeoJSON, JSON-LD</em></div>
+  <div><img src='sck.jpg' />SmartCitizenKit</div>
+  <div><img src='sck-website.png' />SmartCitizenKit - Website</div>
+  <div><img src='sck-api.png' />SmartCitizenKit - CitySDK LD API</div>
+
+  <div><img src='haarlem.png' />Haarlem</div>
+  <div><img src='westland.jpg' />Westland</div>
+  <div><img src='bag_proosdij.png' />Proosdij Deventer</div>  
+  <div><img src='dashboard.png' />City Dashboard</div>
+  <div><img src='divvapi.png' />Parking API - Park Shark</div>
+  <div><img src='otpa.png' />OpenTripPlanner</div>
+  
+  <!-- What's next? -->
+  
+  <div class="idea">Current research</div>
+
+  <!-- - - - - - - - - Idea 1 - - - - - - - - -->
+  <div class="idea">1. Linking data sets</div>
+  <div>
+    Rule-based, between pairs of data sets
+    <span class="corner idea">1: Linking data sets</span>
+  </div>
+  <div>
+    <img src='link-rules.png' />
+    <span class="corner idea">1: Linking data sets</span>    
+  </div>
+  <div>
+    Support changing data sets
+    <span class="corner idea">1: Linking data sets</span>
+  </div>
+
+  <!-- - - - - - - - - Idea 2 - - - - - - - - -->
+  <div class="idea">2. Categorize objects</div>
+  <div>
+    DBpedia, OpenStreetMap, Schema.org, … <br />
+    <code>dbpedia:School</code><br />
+    <span class="corner idea">2: Categorize objects</span>
+  </div>
+  <div>
+    <code>tourism=museum</code><br />
+    <code>dbpedia:Museum</code><br />
+    <code>schema:Museum</code>
+    <span class="corner idea">2: Categorize objects</span>
+  </div>
+
+  <!-- - - - - - - - - Idea 3 - - - - - - - - -->
+  <div class="idea">3. Data-agnostic URIs</div>
+  <div>
+    Linking data to objects you know exist, but don't know the URI of
+    <span class="corner idea">3: Data-agnostic URIs</span>
+  </div>
+  <div>
+    Category + geohash?
+    <span class="corner idea">3: Data-agnostic URIs</span>
+  </div>
+  <div>
+    PLAATJE
+    <span class="corner idea">3: Data-agnostic URIs</span>
+  </div>
+
+  <div>
+    <code>cdk:Museum/u173z5v</code>
+    <span class="corner idea">3: Data-agnostic URIs</span>
+  </div>
+  
+
+  <div>Factsheet, link, blablabla</div>
+
+  
+  <div>    
+    <span id="logos">
+      <a href="http://waag.org/en"><img src="waag.png" /></a>
+      <a href="http://citysdk.waag.org/"><img src="citysdk.png" /></a>
+    </span>
+  </div>
+</body>
+</html>
