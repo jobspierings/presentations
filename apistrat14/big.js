@@ -64,8 +64,8 @@ window.onload = function() {
   function fwd() { go(Math.min(s.length - 1, ++cur)); }
   function rev() { go(Math.max(0, --cur)); }
   document.onkeydown = function(e) {
-    if (e.which === 39) fwd();
-    if (e.which === 37) rev();
+    if (e.which === 39 || e.which === 34) fwd();
+    if (e.which === 37 || e.which === 33) rev();
   };
   document.ontouchstart = function(e) {
     var x0 = e.changedTouches[0].pageX;
