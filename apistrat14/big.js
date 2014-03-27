@@ -14,7 +14,7 @@ window.onload = function() {
       tr = tr + (-50 + Math.round(Math.random() * 100));
       d3.select('#graticules')
           .transition()
-          .duration(1500)
+          .duration(800)
           .attr("transform", "translate(" + tw + "," + th + ")rotate(" + tr + ")scale("+ts+")");
     }
     
