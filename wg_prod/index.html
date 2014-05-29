@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CitySDK</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" href="style.css" id="theme">
+  <script src="d3.v3.min.js" charset="utf-8"></script>
+	<script src="big.js"></script>
+</head>
+<body>
+  <svg><g id="graticules"></g></svg>
+  <span id="waagje"></span>
+  <span id="background-image"></span>
+
+  <!-- Introduction -->
+  
+  <div>Waar is mijn  <br /> <em> school?</em></div>
+  <div>    
+    <a href="mailto:job@waag.org">Job&nbsp;Spierings</a>
+    <br /> <em>&#9679;</em> <br />
+    <a href='http://www.waag.org/en'>Waag&nbsp;Society</a>    
+  </div>
+  
+  <!-- School -->
+  
+  <div><img src='school-01.png' />School</div>
+
+  <!-- object als oplossing -->
+  <div>Hoe verder?  <br /> <em> wat weten we wel?</em></div>
+  
+  <div><img src='barlaeus.jpg' />Gymnasium - gebouw in echte wereld</div>
+  <div><img src='wikipedia.png' />Wikipedia</div>
+  <div><img src='oco.png' />Onderwijs Consument</div>
+  <div><img src='openstreetmap.png' />Open Street Map</div>
+  <div><img src='rijksmonumenten.png' />Cultural Heritage Site</div>
+  <div><img src='goabout.png' />Go About multimodaal reisadvies</div>
+  <div><img src='gemeente.png' />Gemeente</div>
+  <div><img src='donkers.png' />Schoolscores</div>
+  
+  <!-- probleem van Open data -->
+
+  <div><img src='silos.png' />Different silos <em>&#9679;</em> not linked</div>
+  <div><img src='formats.png' />Different file formats</div>
+  <div>404 - not found</div>
+  <div><img src='ndw-xml.png' />Different data models &amp; field names</div>
+  <div><img src='school-03.png' />Stakeholders</div>
+  
+  <!-- al deze data gaat over een object -->
+  <div><img src='school-01.png' />School</div>
+
+  <div><img src='parkinggarage1.png' />Concept (1)</div>
+  <div><img src='silos.png' />Concept (2)</div>
+  <div><img src='parkinggarage3.png' />Concept (3)</div>
+  <div>Webservice: <em>Linked Data API</em></div>
+  <div>Data <em>lezen</em> en <em>toevoegen</em> over de hele stad</div>
+ 
+
+  <!-- Voorbeelden van Nu -->
+  <div><img src='sck.jpg' />SmartCitizenKit</div>
+  <div><img src='sck-website.png' />SCK - Website</div>
+  <div><img src='haarlem.png' />Haarlem</div>
+  <div><img src='buildings.gif' />Buildings ScreenCap</div>
+  <div><img src='dashboard.png' />City Dashboard</div>  
+  <div><img src='widget1.png' />Parking widget 1</div>
+  <div><img src='widget2.png' />Parking widget 2</div>
+  <div><img src='otpa.png' />OpenTripPlannerAnalyst</div>
+
+  <!-- EN het goede nieuws: intereopabel -->
+  <div><img src='interoperability-01.png' />een app of analysetool voor één stad</div>
+  <div><img src='interoperability-02.png' />is in landen met dezelfde interface direct toepasbaar</div>
+  <div><img src='interoperability-03.png' />dus!</div>
+    <div>
+  	  <h1 align="left">Data in 6 steden (sel.)</h1>
+  	  <br>
+  	  <h3 align="left">Amsterdam, Netherlands, Helsinki, Istanbul, Lamia (GR), Manchester, Rome (prov.)</h3>
+  	  <br>
+  	  <table align="center" style="width:70%">
+  	    <tbody>
+  	      <tr>
+  	        <th> </th>
+  	        <th>  A  </th>
+  	        <th>  N  </th>
+  	        <th>  H  </th>
+  	        <th>  I  </th>
+  	        <th>  L  </th>
+  	        <th>  M </th>
+  	        <th>  R  </th>
+  	      </tr>
+  		  <tr>
+  			  <td align="left">OpenStreetMap</td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  		  </tr>
+  		  <tr>
+  			  <td align="left">Public Transport</td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  		  </tr>
+  		  <tr>
+  			  <td align="left">Admin. Regions</td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  		  </tr>
+  		  <tr>
+  			  <td align="left">POI/events</td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em></em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em></em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  		  </tr>
+  		  <tr>
+  			  <td align="left">Parking (rt)</td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em></em></td>
+  			  <td> <em></em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em></em></td>
+  			  <td> <em>&#9679;</em></td>
+  		  </tr>
+  		  <tr>
+  			  <td align="left">Electr. charg.</td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em></em></td>
+  			  <td> <em></em></td>
+  			  <td> <em></em></td>
+  			  <td> <em></em></td>
+  			  <td> <em>&#9679;</em></td>
+  		  </tr>
+  		  <tr>
+  			  <td align="left">Weather</td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em></em></td>
+  			  <td> <em></em></td>
+  			  <td> <em></em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em></em></td>
+  		  </tr>
+  		  <tr>
+  			  <td align="left">Real-time traffic</td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em></em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em></em></td>
+  			  <td> <em></em></td>
+  			  <td> <em></em></td>
+  		  </tr>
+  		  <tr>
+  			  <td align="left">Population stat.</td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em></em></td>
+  			  <td> <em></em></td>
+  			  <td> <em></em></td>
+  			  <td> <em></em></td>
+  			  <td> <em></em></td>
+  		  </tr>
+  		  <tr>
+  			  <td align="left">Cadastre</td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em>&#9679;</em></td>
+  			  <td> <em></em></td>
+  			  <td> <em></em></td>
+  			  <td> <em></em></td>
+  			  <td> <em></em></td>
+  		  </tr>
+  	  </tbody>
+    </table>
+  </div>
+      
+  <div>    
+    <span id="logos">
+      <a href="http://waag.org/en"><img src="waag.png" /></a>
+      <a href="http://citysdk.waag.org/"><img src="citysdk.png" /></a>
+    </span>
+  </div>
+</body>
+</html>
