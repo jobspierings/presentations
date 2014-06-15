@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1024px" height="768px" viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
+<polygon fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	830.71,484.131 805.375,332.795 676.135,354.432 667.004,299.896 598.496,311.365 589.289,256.378 378.47,291.672 387.676,346.659 
+	318.784,358.192 327.913,412.728 198.672,434.363 224.006,585.698 353.248,564.062 363.291,624.052 711.512,565.756 701.47,505.767 
+	"/>
+<circle fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="12" cx="510.441" cy="459.345" r="246.737"/>
+<circle fill="#FFFFFF" cx="510.441" cy="459.345" r="9.565"/>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="516.348" y1="419.563" x2="543.381" y2="237.474"/>
+		<g>
+			<polygon fill="#FFFFFF" points="514.273,433.531 525.238,415.043 516.502,418.52 509.155,412.654 			"/>
+		</g>
+		<g>
+			<polygon fill="#FFFFFF" points="549.882,244.118 543.018,239.918 535.229,241.943 545.134,225.664 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(0.1669 -0.986 0.986 0.1669 510.4414 384.2729)" fill="#FFFFFF" font-family="'OpenSans'" font-size="44.5809">80 m.</text>
+<text transform="matrix(1 0 0 1 166.9976 144.5859)" fill="#FFFFFF" font-family="'OpenSans-Semibold'" font-size="52">Museum at location [lat, lon]</text>
+</svg>
